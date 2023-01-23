@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 20, 1002023)
+x = np.linspace(0, 50, 1002023)
 plt.plot(x, np.sin(x))
 
 plt.show()
