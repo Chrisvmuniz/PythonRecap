@@ -1,8 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 50, 1002023)
+x = np.linspace(10, 50, 1002023)
 plt.plot(x, np.sin(x))
+
+
+y = np.linspace(5, 50, 1002023)
+plt.plot(y, np.cos(y))
 
 plt.show()
 
